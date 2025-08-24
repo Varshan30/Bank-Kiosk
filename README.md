@@ -12,16 +12,6 @@ A minimal banking kiosk + auth demo.
 - Frontend: Vanilla HTML/CSS/JS (`index.html`)
 - Backend: Flask + MySQL (`app.py`)
 
-## Endpoints
-| Method | Path | Description |
-| ------ | ---- | ----------- |
-| GET | / | Health message |
-| POST | /api/signup | Create user (name,email,phone,passcode) |
-| POST | /api/login | Login with email + passcode |
-| POST | /deposit | Increment balance |
-| POST | /withdraw | Decrement balance if sufficient |
-| GET | /balance?user_id=ID | Fetch balance |
-
 ## Quick Start
 ```bash
 # 1. (Windows PowerShell) Create/activate venv (optional)
